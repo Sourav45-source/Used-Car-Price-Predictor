@@ -3,6 +3,7 @@ import pandas as pd
 import pickle
 from datetime import datetime
 
+
 model = pickle.load(open('vechile_price_predictor_model.pkl', 'rb'))
 model_columns  = pickle.load(open('model_columns.pkl', 'rb'))   # list of strings
 
